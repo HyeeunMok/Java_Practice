@@ -12,15 +12,14 @@ public class ArrayExample {
 		Scanner scan = new Scanner(System.in);
 		
 		//Read in the names and store them in the array of strings.
-		
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < names.length; i++) {
 			System.out.println("Please enter a name.");
 			names[i] = scan.nextLine();
 		}
 		
 		// Output the list of names
 		System.out.println("The names entered were:");
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i <  names.length; i++) {
 			System.out.println(names[i]);
 		}
 		
